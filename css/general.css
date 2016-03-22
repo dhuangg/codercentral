@@ -1,0 +1,16 @@
+body{font-family: 'Open Sans', sans-serif;}
+@font-face {
+    font-family: 'archiveregular';
+    src: url('../fonts/archive-webfont.eot');
+    src: url('../fonts/archive-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/archive-webfont.woff2') format('woff2'),
+    url('../fonts/archive-webfont.woff') format('woff'),
+    url('../fonts/archive-webfont.ttf') format('truetype'),
+    url('../fonts/archive-webfont.svg#archiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#brand{font-family:archiveregular,'sans-serif';}
+hr{border-color:darkgrey;}
+.navbar, h1{font-family:'archiveregular',sans-serif;}
+footer{background-color:rgb(52,50,54);color:white;padding:8%;}

@@ -1,0 +1,46 @@
+
+header{
+    height: 100vh;
+    background-image: url(../images/slideshow/DSC_0266.JPG);
+    background-size: cover;
+    position: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header .wrapper{
+    width:100%;
+    height:inherit;
+    background-color:black;
+    opacity: .8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{opacity:1 !important;}
+h1{margin-bottom:3%;}
+.navbar.clear{  background:transparent;  border:none;  }
+.clear .navbar-right li a{ color:white; }
+.clear .navbar-right .dropdown .dropdown-menu{background-color:transparent;border:none;}
+.clear .dropdown-menu a:hover{background-color:black!important; opacity:.8;}
+
+.highlight-sec{
+    margin:3% 0 3% 0;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-family:archiveregular,sans-serif;
+    font-size:2em;
+    background-color:darkgrey;
+    color: #121524;
+}
+.highlight-sec .container .glyphicon{
+    margin-left:30%;
+    font-size:2em;
+}
+
+#letter{line-height:200%;font-size:1.1em;}
+
+footer{background-color:rgb(52,50,54);color:white;padding:8%;}
